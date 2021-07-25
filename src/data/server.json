@@ -1,0 +1,116 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name": "Home Office industrial - Concreto queimado",
+            "description": "Home office com estilo industrial, eletrodutos expostos com mesa em madeira pinos.",
+            "price": 4000,
+            "imgUrl": "https://cdn.leroymerlin.com.br/products/mesa_escritorio_estilo_industrial_still_1,20_moveis_belo_1567333602_36c3_600x600.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Home office industrial - Parede de tijolinhos",
+            "description": "Home office com estilo industrial e parede de tijolinhos brancos com mesa com tampo em mdf resistente branco",
+            "price": 4000,
+            "imgUrl": "https://cdn.leroymerlin.com.br/products/mesa_para_escritorio_office_estilo_industrial_0,90m_kuadra_1567091391_8f03_600x600.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Home office light",
+            "description": "Home office com instalações embutidas, parede com tinta acrílica e mesa em MDF branco.",
+            "price": 4000,
+            "imgUrl": "https://cdn.leroymerlin.com.br/products/mesa_de_canto_office_2_portas_3_gavetas_branco_new_1566715757_6adc_600x600.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Home office desmontável",
+            "description": "",
+            "price": 4000,
+            "imgUrl": "https://cdn.leroymerlin.com.br/products/escrivaninha_com_4_prateleiras_self_estilo_cavalete__castan_1566731307_ad21_600x600.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Product 05",
+            "description": "Description 05 - best product of all time. Last chance.",
+            "price": 4000,
+            "imgUrl": ""
+        },
+        {
+            "id": 6,
+            "name": "Product 06",
+            "description": "Description 06 - best product of all time. Last chance.",
+            "price": 4000,
+            "imgUrl": ""
+        },
+        {
+            "id": 7,
+            "name": "Product 07",
+            "description": "Description 07 - best product of all time. Last chance.",
+            "price": 4000,
+            "imgUrl": ""
+        },
+        {
+            "id": 8,
+            "name": "Product 08",
+            "description": "Description 08 - best product of all time. Last chance.",
+            "price": 4000,
+            "imgUrl": ""
+        },
+        {
+            "id": 9,
+            "name": "Product 09",
+            "description": "Description 09 - best product of all time. Last chance.",
+            "price": 4000,
+            "imgUrl": ""
+        },
+        {
+            "id": 10,
+            "name": "Product 10",
+            "description": "Description 10 - best product of all time. Last chance.",
+            "price": 4000,
+            "imgUrl": ""
+        },
+        {
+            "id": 11,
+            "name": "Product 11",
+            "description": "Description 11 - best product of all time. Last chance.",
+            "price": 4000,
+            "imgUrl": ""
+        },
+        {
+            "id": 12,
+            "name": "Product 12",
+            "description": "Description 12 - best product of all time. Last chance.",
+            "price": 4000,
+            "imgUrl": ""
+        },
+        {
+            "id": 13,
+            "name": "Product 13",
+            "description": "Description 13 - best product of all time. Last chance.",
+            "price": 4000,
+            "imgUrl": ""
+        },
+        {
+            "id": 14,
+            "name": "Product 14",
+            "description": "Description 14 - best product of all time. Last chance.",
+            "price": 4000,
+            "imgUrl": ""
+        },
+        {
+            "id": 15,
+            "name": "Product 15",
+            "description": "Description 15 - best product of all time. Last chance.",
+            "price": 4000,
+            "imgUrl": ""
+        },
+        {
+            "id": 16,
+            "name": "Product 16",
+            "description": "Description 16 - best product of all time. Last chance.",
+            "price": 4000,
+            "imgUrl": ""
+        }
+    ]
+}
