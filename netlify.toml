@@ -3,3 +3,6 @@ base = "."
 command = "yarn run build"
 publish = "./build/"
 
+[server]
+base = "."
+command = "yarn global add serve && serve -s build"
