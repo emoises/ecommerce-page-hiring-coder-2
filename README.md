@@ -42,3 +42,9 @@ ou:
 ```
     npm start
 ```
+
+## Sobre o projeto
+
+Executei o projeto com esta api simulada para simular a compra em uma central de e-commerce.
+Ao carregar a página o carrinho é carregado do `local storage` se houver. 
+Ao clicar no botão o item é adicionado ao carrinho.
