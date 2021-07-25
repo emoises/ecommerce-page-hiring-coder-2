@@ -1,8 +1,9 @@
-# Getting Started with Create React App
+# Desafio 2 - Hiring Coders @
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+## Para utilizar este projeto clone ele para sua máquina
+```js
+    git clone https://github.com/emoises/ecommerce-page-hiring-coder-2.git
+```
 
 In the project directory, you can run:
 

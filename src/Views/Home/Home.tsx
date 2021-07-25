@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState, useMemo} from 'react';
 
 import Header from "../../components/Header/Header";
 
@@ -24,7 +24,16 @@ const Home: React.FC<CartCountProps> = ({handleCartCount}) => {
   const [ data, setData] = useState<DataProps[]>([]);
   const [ cart, setCart] = useState<DataProps[]>([]);
 
-  
+  const getStoragedCart = async () => {
+    const teste: string = localStorage.getItem('@cart') || '[]'
+    let storagedCart: DataProps[] = await JSON.parse(teste)
+    console.log("Olha o cart. Era isso?",cart.length)
+    setCart([...storagedCart])
+    return storagedCart
+  }
+  useEffect( () => {
+    getStoragedCart()
+  }, [])
   useEffect( () => {
     api.get('').then( response => {
       setData(response.data)
