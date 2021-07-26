@@ -1,3 +1,4 @@
+import Footer from './components/Footer/Footer';
 import GlobalStyles from './styles/global'
 import Home from './Views/Home/Home'
 
@@ -9,6 +10,7 @@ const App = () => {
     <>
     <GlobalStyles />
     <Home/>
+    <Footer />
     </>
   );
 }

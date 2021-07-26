@@ -4,8 +4,8 @@ export const Container = styled.div`
   width: 80%;
   height: 900px;
   margin: 10px auto;
-  opacity: .8;
-  background: #f2f5f5;
+  opacity: 1;
+  background: rgba(200,200,200, 0);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

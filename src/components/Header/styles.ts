@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     height: 140px;
-    background: #f2f5f5;
+    background: #fff;
     .container-search{
         display: flex;
         flex-direction: row;
