@@ -1,8 +1,4 @@
 [build]
 base = "."
-command = "yarn run build"
+command = "CI=false yarn run build"
 publish = "./build/"
-
-[server]
-base = "."
-command = "yarn global add serve && serve -s build"

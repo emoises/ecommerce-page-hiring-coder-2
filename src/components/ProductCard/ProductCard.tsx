@@ -1,6 +1,5 @@
-import React, {useState} from 'react';
+import React from 'react';
 
-import api from '../../services/api'
 import { Container } from './styles';
 
 interface DataProps {
