@@ -1,6 +1,6 @@
 [build]
 base = "."
-command = "CI=false yarn run build && yarn run server"
+command = "CI=false yarn run build"
 publish = "./build/"
 
 [build.enviroment]
