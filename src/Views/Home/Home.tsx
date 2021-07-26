@@ -35,7 +35,7 @@ const Home: React.FC<CartCountProps> = ({handleCartCount}) => {
     getStoragedCart()
   }, [])
   useEffect( () => {
-    api.get('').then( response => {
+    api.get('/products').then( response => {
       setData(response.data)
     })
 
@@ -44,7 +44,7 @@ const Home: React.FC<CartCountProps> = ({handleCartCount}) => {
   const handleProductButton = (e: any) => {
     const id = e.target.value
 
-    api.get(`/${id}`).then( response => {
+    api.get(`/products/${id}`).then( response => {
       setCart([
         ...cart,
         response.data

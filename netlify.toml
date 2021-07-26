@@ -2,3 +2,6 @@
 base = "."
 command = "CI=false yarn run build && yarn run server"
 publish = "./build/"
+
+[build.enviroment]
+REACT_APP_API_URL = "https://infallible-newton-f2f519.netlify.app/api"
